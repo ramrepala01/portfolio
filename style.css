@@ -1,0 +1,48 @@
+.header-height{
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    background: #222;
+    width:100%;
+
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+.navigation-link{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   padding:0px 10px;
+}
+.navigation-link:hover{
+    text-decoration:none;
+    color:#fff;
+}
+.logo-image{
+    height: 70px;
+    width: auto;
+
+}
+.banner-background{
+    
+    align-items: center;
+    display: flex;
+    height: 80vh !important;
+    width:100%;
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.banner-heading{
+    color: white;
+    font-weight: 700;
+    font-size: 90px;
+}
+.subBanner-heading{
+    color: white;
+    font-size: 25px;
+}
